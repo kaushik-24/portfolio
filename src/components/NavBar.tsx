@@ -7,13 +7,13 @@ import { useWindowScroll } from "react-use";
 const navItems = ['Home', 'Features', 'About', 'contact']
 
 const NavBar = () => {
-  const [isIndicatorActive, setIsIndicatorActive] = useState(false);
+  //const [isIndicatorActive, setIsIndicatorActive] = useState(false);
 
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isNavVisible, setIsNavVisible] = useState(true);
 
   const navContainerRef = useRef<HTMLDivElement | null>(null);
-  const audioElementRef = useRef<HTMLAudioElement | null>(null);
+  //const audioElementRef = useRef<HTMLAudioElement | null>(null);
 
   const {y: currentScrollY} = useWindowScroll();
 
